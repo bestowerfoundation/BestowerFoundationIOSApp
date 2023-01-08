@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53E3B49F295E757D00B77CC5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3B49E295E757D00B77CC5 /* LoginView.swift */; };
 		8AD9F38E2953A4CE00C26FA6 /* BestowerIOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9F38D2953A4CE00C26FA6 /* BestowerIOSAppApp.swift */; };
 		8AD9F3902953A4CE00C26FA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9F38F2953A4CE00C26FA6 /* ContentView.swift */; };
 		8AD9F3922953A4CF00C26FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD9F3912953A4CF00C26FA6 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53E3B49E295E757D00B77CC5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8AD9F38A2953A4CE00C26FA6 /* BestowerIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestowerIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD9F38D2953A4CE00C26FA6 /* BestowerIOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestowerIOSAppApp.swift; sourceTree = "<group>"; };
 		8AD9F38F2953A4CE00C26FA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				8AD9F38F2953A4CE00C26FA6 /* ContentView.swift */,
 				8AD9F3912953A4CF00C26FA6 /* Assets.xcassets */,
 				8AD9F3932953A4CF00C26FA6 /* Preview Content */,
+				53E3B49E295E757D00B77CC5 /* LoginView.swift */,
 			);
 			path = BestowerIOSApp;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E3B49F295E757D00B77CC5 /* LoginView.swift in Sources */,
 				8AD9F3902953A4CE00C26FA6 /* ContentView.swift in Sources */,
 				8AD9F38E2953A4CE00C26FA6 /* BestowerIOSAppApp.swift in Sources */,
 			);

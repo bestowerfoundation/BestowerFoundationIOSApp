@@ -7,15 +7,27 @@
 
 import SwiftUI
 
+let lightGreyColor = Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0, opacity: 1.0)
+
 struct ContentView: View {
+    
+    @State var username: String = ""
+    @State var password: String = ""
+    
+    @State var authenticationDidFail: Bool = false
+    @State var authenticationDidSucceed: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world")
+        
+        ZStack {
+            if !authenticationDidSucceed {
+                LoginView(username: self.$username, password: self.$password, authenticationDidFail: $authenticationDidFail, authenticationDidSucceed: $authenticationDidSucceed)
+
+            } else {
+                Text("IT WORKED!!!! YAAY!!!")
+            }
+            
         }
-        .padding()
     }
 }
 
@@ -24,4 +36,15 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
+
+
+
 // this comment was added by tahsin
+
+
+
+
+
